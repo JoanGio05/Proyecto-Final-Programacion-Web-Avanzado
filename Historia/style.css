@@ -3,7 +3,7 @@
     font-family: 'arial', sans-serif;
 }
 body{
-    background-image: url(imagenes/codigo.jpeg);
+    background-image: url(/imagenes/codigo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -67,72 +67,4 @@ h1{
     width: 100%;
     height: 100%;
     background-color: #427E80;
-    
-}
-h2{
-    font-size: 40px;
-    padding: 30px;
-    color: #F0F5E4;
-    text-shadow: 1.5px 1.5px #2D2D2D;
-    display: flex;
-    justify-content: center;
-}
-#grid{
-    margin-top: 167.5px;
-    width: 100%;
-    width: auto;
-    display: grid;
-    grid-template-columns: 350px 350px;
-    grid-template-rows: 400px;
-    justify-content: space-evenly;
-}
-.etiqueta{
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    text-align: center;
-    border: 5px solid #154454;
-    display: grid;
-}
-
-img{
-    width: 100%;
-}
-.li2{
-    background-color: #427E80;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 2px 3px 0px .1px #154454;
-    color: #ffffff;
-    width: 40%;
-    align-self: end;
-    justify-self: center;
-    margin-bottom: 20px;
-}
-.li2:active{
-    transform: translate(3px, 2px);
-    box-shadow: 0px 0px 0px 0px #427E80;
-}
-.pEtiq{
-    align-self: center;
-}
-.a1{
-    color: #ffffff;
-}
-
-
-
-
-footer{
-    width: 100%;
-    height: 90px;
-    background-color: #1d1d1d; 
-    display: flex;
-    color: #ffffff;
-}
-
-.div2{
-    line-height: 8px;
-    font-size: small;
-    font-weight: 800;
 }
