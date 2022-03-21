@@ -65,6 +65,54 @@ h1{
 }
 #main{
     width: 100%;
-    height: 100%;
+    height: 2750px;
     background-color: #427E80;
+    display: flex;
+    flex-direction: column;
+}
+.Linea1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.Linea2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 52.5% 47.5%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.Linea3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 75%;
+   grid-template-rows: auto;
+   align-items: center;
+    justify-content: center;
+}
+.titulos{
+    color: #F0F5E4;
+    font-size: 40px;
+    text-shadow: 2px 2px #154454;
+    font-weight: 600;
+    text-align: center;
+}
+.parrafo1{
+    padding-right: 75px;
+}
+.parrafo2{
+    padding-left: 200px;
+}
+.parrafo3{
+    padding-right: 75px;
+}
+#titulo3{
+    margin-left: 50px;
 }
