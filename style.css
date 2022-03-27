@@ -16,6 +16,58 @@ header{
     display: flex;
     justify-content: end;
 }
+.headerA{
+    width: 40%;
+    height: 100%;
+}
+svg{
+    width: 200px;
+    height: 80px;
+    background-color: #427E80;
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+}
+.borde{
+    width: 60px;
+    height: 35px;
+    animation: ease-in 5s;
+    animation-iteration-count: 1;
+    animation-name: a;
+}
+.relleno{
+    width: 50px;
+    height: 25px;
+    animation: ease-in 5s;
+    animation-iteration-count: 1;
+    animation-name: a;
+    animation-delay: .5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+@keyframes a{
+    0% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    20% {
+        transform: translate(0,-10px);
+            opacity: 0;
+    }
+    30% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    90% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
 ul{
     width: 60%;
     height: 100%;
