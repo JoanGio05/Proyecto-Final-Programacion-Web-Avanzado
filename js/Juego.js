@@ -34,6 +34,7 @@ cajas[0].addEventListener('drop', (evento)=>{
     imagen1.setAttribute('src', img1);
     imagen1.style.border = '0px';
     imagen1.style.width = '100%';
+    imagen1.style.height = '100%';
     cajas[0].appendChild(imagen1);
 
 })
@@ -57,6 +58,7 @@ cajas[1].addEventListener('drop', (evento)=>{
     imagen2.setAttribute('src', img2);
     imagen2.style.border = '0px';
     imagen2.style.width = '100%';
+    imagen2.style.height = '100%';
     cajas[1].appendChild(imagen2);
 
 })
@@ -78,6 +80,7 @@ cajas[2].addEventListener('drop', (evento)=>{
     imagen3.setAttribute('src', img3);
     imagen3.style.border = '0px';
     imagen3.style.width = '100%';
+    imagen3.style.height = '100%';
     cajas[2].appendChild(imagen3);
 })
 imag[2].addEventListener('dragend', (evento)=>{

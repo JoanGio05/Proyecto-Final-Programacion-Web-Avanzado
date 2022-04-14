@@ -9,7 +9,6 @@ botonInicio.addEventListener('click',()=>{
 
 botonPausa.addEventListener('click',()=>{
     video.pause();
-    p[0].textContent = `Duracion video: ${video.duration}`;
 })
 
 window.addEventListener('load', ()=>{
